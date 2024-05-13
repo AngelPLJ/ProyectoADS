@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\jponce\\Source\\Repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Maphreca.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Maphreca.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\jponce\\Source\\Repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\jponce\\Source\\Repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\jponce\\Source\\Repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\jponce\\Source\\Repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Maphreca.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Maphreca.props",
+      "PackagePath": "build\\Maphreca.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Maphreca.props",
+      "PackagePath": "buildMultiTargeting\\Maphreca.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Maphreca.props",
+      "PackagePath": "buildTransitive\\Maphreca.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
