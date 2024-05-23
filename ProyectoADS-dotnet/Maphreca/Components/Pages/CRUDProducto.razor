@@ -1,0 +1,91 @@
+@page "/crudproductos"
+@using Maphreca.Components.Data
+@using Maphreca.Components.Models
+@using Microsoft.EntityFrameworkCore
+@inject NavigationManager NavigationManager
+@inject ProductosContext Db
+
+<h3>Lista de productos</h3>
+
+@if (productos != null && productos.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Cantidad</th>
+                <th>Código</th>
+                <th>Descripción</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in productos)
+            {
+                <tr>
+                    <td>@item.Nombre</td>
+                    <td>@item.Cantidad</td>
+                    <td>@item.Codigo</td>
+                    <td>@item.Descripcion</td>
+                    <td>
+                        <button class="btn btn-primary" @onclick="() => EditarProducto(item)">Editar</button>
+                        <button class="btn btn-danger" @onclick="() => EliminarProducto(item)">Eliminar</button>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No hay productos disponibles.</p>
+}
+
+<button class="btn btn-success" @onclick="NuevoProducto">Agregar Producto</button>
+
+@code {
+    private List<ProductosModel> productos = new List<ProductosModel>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        await ActualizarListaProductos();
+    }
+
+    private async Task ActualizarListaProductos()
+    {
+        try
+        {
+            productos = await Db.Productos.ToListAsync();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error al obtener productos: {ex.Message}");
+        }
+    }
+
+    private void NuevoProducto()
+    {
+        // Navigate to the page for creating a new product
+        NavigationManager.NavigateTo("/");
+    }
+
+    private void EditarProducto(ProductosModel producto)
+    {
+        // Navigate to the page for editing the selected product
+        NavigationManager.NavigateTo($"/editar-producto/{producto.Id}");
+    }
+
+    private async void EliminarProducto(ProductosModel producto)
+    {
+        try
+        {
+            Db.Productos.Remove(producto);
+            await Db.SaveChangesAsync();
+            await ActualizarListaProductos();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error al eliminar el producto: {ex.Message}");
+        }
+    }
+}

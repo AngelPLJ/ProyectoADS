@@ -1,10 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ProyectoADS-dotnet",
     "\\ProyectoADS-dotnet\\Maphreca",
-    "\\ProyectoADS-dotnet\\Maphreca\\Properties"
+    "\\ProyectoADS-dotnet\\Maphreca\\bin\\Debug\\net8.0",
+    "\\ProyectoADS-dotnet\\Maphreca\\Components",
+    "\\ProyectoADS-dotnet\\Maphreca\\Components\\Layout",
+    "\\ProyectoADS-dotnet\\Maphreca\\Components\\Pages",
+    "\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\bootstrap"
   ],
-  "SelectedNode": "\\ProyectoADS-dotnet\\Maphreca\\Program.cs",
+  "SelectedNode": "\\ProyectoADS-dotnet",
   "PreviewInSolutionExplorer": false
 }

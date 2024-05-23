@@ -1,0 +1,68 @@
+@page "/editar-producto/{Id:int}"
+@using Maphreca.Components.Data
+@using Maphreca.Components.Models
+@using Microsoft.EntityFrameworkCore
+@inject ProductosContext Db
+@inject NavigationManager NavigationManager
+
+<h3>Editar Producto</h3>
+
+@if (Producto != null)
+{
+    <div class="form-group">
+        <label for="nombre">Nombre:</label>
+        <input type="text" class="form-control" id="nombre" @bind="@Producto.Nombre" />
+    </div>
+
+    <div class="form-group">
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" class="form-control" id="cantidad" @bind="@Producto.Cantidad" />
+    </div>
+
+    <div class="form-group">
+        <label for="codigo">Código:</label>
+        <input type="text" class="form-control" id="codigo" @bind="@Producto.Codigo" />
+    </div>
+
+    <div class="form-group">
+        <label for="descripcion">Descripción:</label>
+        <textarea class="form-control" id="descripcion" rows="3" @bind="@Producto.Descripcion"></textarea>
+    </div>
+
+    <button class="btn btn-primary" @onclick="GuardarCambios">Guardar Cambios</button>
+    <button class="btn btn-secondary" @onclick="Cancelar">Cancelar</button>
+}
+else
+{
+    <p>Producto no encontrado.</p>
+}
+
+@code {
+    [Parameter]
+    public int Id { get; set; }
+
+    private ProductosModel Producto;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Producto = await Db.Productos.FindAsync(Id);
+    }
+
+    private async Task GuardarCambios()
+    {
+        try
+        {
+            await Db.SaveChangesAsync();
+            NavigationManager.NavigateTo("/productos");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error al guardar los cambios: {ex.Message}");
+        }
+    }
+
+    private void Cancelar()
+    {
+        NavigationManager.NavigateTo("/productos");
+    }
+}

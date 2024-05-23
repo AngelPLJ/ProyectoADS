@@ -26,12 +26,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDb3VudGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/jponce/Source/Repos/ProyectoADS/ProyectoADS-dotnet/Maphreca/Components/Pages/CrearProducto.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDcmVhclByb2R1Y3RvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jponce/Source/Repos/ProyectoADS/ProyectoADS-dotnet/Maphreca/Components/Pages/CRUDProducto.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xDUlVEUHJvZHVjdG8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jponce/Source/Repos/ProyectoADS/ProyectoADS-dotnet/Maphreca/Components/Pages/EditarProducto.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFZGl0YXJQcm9kdWN0by5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/jponce/Source/Repos/ProyectoADS/ProyectoADS-dotnet/Maphreca/Components/Pages/Error.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/jponce/Source/Repos/ProyectoADS/ProyectoADS-dotnet/Maphreca/Components/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xIb21lLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/jponce/Source/Repos/ProyectoADS/ProyectoADS-dotnet/Maphreca/Components/Pages/ListaProductos.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xMaXN0YVByb2R1Y3Rvcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/jponce/Source/Repos/ProyectoADS/ProyectoADS-dotnet/Maphreca/Components/Pages/Weather.razor]

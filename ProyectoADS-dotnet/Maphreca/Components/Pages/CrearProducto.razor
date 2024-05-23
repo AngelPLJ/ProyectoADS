@@ -1,0 +1,54 @@
+@page "/nuevo-producto"
+@using Maphreca.Components.Data
+@using Maphreca.Components.Models
+@using Microsoft.EntityFrameworkCore
+@inject ProductosContext Db
+@inject NavigationManager NavigationManager
+
+<h3>Nuevo Producto</h3>
+
+<div class="form-group">
+    <label for="nombre">Nombre:</label>
+    <input type="text" class="form-control" id="nombre" @bind="@NuevoProducto.Nombre" />
+</div>
+
+<div class="form-group">
+    <label for="cantidad">Cantidad:</label>
+    <input type="number" class="form-control" id="cantidad" @bind="@NuevoProducto.Cantidad" />
+</div>
+
+<div class="form-group">
+    <label for="codigo">Código:</label>
+    <input type="text" class="form-control" id="codigo" @bind="@NuevoProducto.Codigo" />
+</div>
+
+<div class="form-group">
+    <label for="descripcion">Descripción:</label>
+    <textarea class="form-control" id="descripcion" rows="3" @bind="@NuevoProducto.Descripcion"></textarea>
+</div>
+
+<button class="btn btn-primary" @onclick="GuardarProducto">Guardar</button>
+<button class="btn btn-secondary" @onclick="Cancelar">Cancelar</button>
+
+@code {
+    private ProductosModel NuevoProducto = new ProductosModel();
+
+    private async Task GuardarProducto()
+    {
+        try
+        {
+            Db.Productos.Add(NuevoProducto);
+            await Db.SaveChangesAsync();
+            NavigationManager.NavigateTo("/productos");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error al guardar el producto: {ex.Message}");
+        }
+    }
+
+    private void Cancelar()
+    {
+        NavigationManager.NavigateTo("/productos");
+    }
+}

@@ -1,10 +1,14 @@
 using Maphreca.Components;
+using Maphreca.Components.Data;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
+builder.Services.AddDbContext<ProductosContext>(options =>
+options.UseSqlite(builder.Configuration.GetConnectionString("ProductoContext")));
 
 var app = builder.Build();
 
@@ -24,4 +28,16 @@ app.UseAntiforgery();
 app.MapRazorComponents<App>()
     .AddInteractiveServerRenderMode();
 
+// Ensure the database is created
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<ProductosContext>();
+    db.Database.EnsureCreated();
+}
+
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<ProductosContext>();
+    db.Database.
+}
 app.Run();

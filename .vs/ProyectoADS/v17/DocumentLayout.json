@@ -3,24 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\jponce\\source\\repos\\ProyectoADS\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Components\\Layout\\NavMenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoADS-dotnet\\Maphreca\\Components\\Layout\\NavMenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jponce\\Source\\Repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Components\\Pages\\ListaProductos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoADS-dotnet\\Maphreca\\Components\\Pages\\ListaProductos.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoADS-dotnet\\Maphreca\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Components\\App.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoADS-dotnet\\Maphreca\\Components\\App.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Components\\Data\\ProductosContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoADS-dotnet\\Maphreca\\Components\\Data\\ProductosContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoADS-dotnet\\Maphreca\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Maphreca.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoADS-dotnet\\Maphreca\\Maphreca.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoADS-dotnet\\Maphreca\\appsettings.Development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Components\\Models\\ProductosModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoADS-dotnet\\Maphreca\\Components\\Models\\ProductosModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoADS-dotnet\\Maphreca\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Components\\Layout\\MainLayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoADS-dotnet\\Maphreca\\Components\\Layout\\MainLayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Components\\Pages\\Home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ProyectoADS-dotnet\\Maphreca\\Components\\Pages\\Home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,71 +46,127 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "ProyectoADS-dotnet\\Maphreca\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\appsettings.Development.json",
-              "RelativeToolTip": "ProyectoADS-dotnet\\Maphreca\\appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-13T21:39:07.943Z",
+              "DocumentIndex": 1,
+              "Title": "ListaProductos.razor",
+              "DocumentMoniker": "C:\\Users\\jponce\\Source\\Repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Components\\Pages\\ListaProductos.razor",
+              "RelativeDocumentMoniker": "ProyectoADS-dotnet\\Maphreca\\Components\\Pages\\ListaProductos.razor",
+              "ToolTip": "C:\\Users\\jponce\\Source\\Repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Components\\Pages\\ListaProductos.razor",
+              "RelativeToolTip": "ProyectoADS-dotnet\\Maphreca\\Components\\Pages\\ListaProductos.razor",
+              "ViewState": "AQIAABYAAACgZmZmZiYgwAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T20:43:11.918Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\appsettings.json",
-              "RelativeDocumentMoniker": "ProyectoADS-dotnet\\Maphreca\\appsettings.json",
-              "ToolTip": "C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\appsettings.json",
-              "RelativeToolTip": "ProyectoADS-dotnet\\Maphreca\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-13T20:18:02.353Z",
+              "DocumentIndex": 3,
+              "Title": "ProductosContext.cs",
+              "DocumentMoniker": "C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Components\\Data\\ProductosContext.cs",
+              "RelativeDocumentMoniker": "ProyectoADS-dotnet\\Maphreca\\Components\\Data\\ProductosContext.cs",
+              "ToolTip": "C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Components\\Data\\ProductosContext.cs",
+              "RelativeToolTip": "ProyectoADS-dotnet\\Maphreca\\Components\\Data\\ProductosContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T20:49:35.671Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Program.cs",
-              "RelativeDocumentMoniker": "ProyectoADS-dotnet\\Maphreca\\Program.cs",
-              "ToolTip": "C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Program.cs",
-              "RelativeToolTip": "ProyectoADS-dotnet\\Maphreca\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T20:09:50.472Z",
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "ProyectoADS-dotnet\\Maphreca\\Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "ProyectoADS-dotnet\\Maphreca\\Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAABYAAAAAZmZmZqYowCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-23T20:46:36.721Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "App.razor",
-              "DocumentMoniker": "C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Components\\App.razor",
-              "RelativeDocumentMoniker": "ProyectoADS-dotnet\\Maphreca\\Components\\App.razor",
-              "ToolTip": "C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Components\\App.razor",
-              "RelativeToolTip": "ProyectoADS-dotnet\\Maphreca\\Components\\App.razor",
+              "DocumentIndex": 4,
+              "Title": "Maphreca.csproj",
+              "DocumentMoniker": "C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Maphreca.csproj",
+              "RelativeDocumentMoniker": "ProyectoADS-dotnet\\Maphreca\\Maphreca.csproj",
+              "ToolTip": "C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Maphreca.csproj",
+              "RelativeToolTip": "ProyectoADS-dotnet\\Maphreca\\Maphreca.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-05-23T22:24:17.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "ProyectoADS-dotnet\\Maphreca\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "ProyectoADS-dotnet\\Maphreca\\Components\\Layout\\MainLayout.razor",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-13T20:02:02.719Z",
+              "WhenOpened": "2024-05-23T20:46:28.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\appsettings.json",
+              "RelativeDocumentMoniker": "ProyectoADS-dotnet\\Maphreca\\appsettings.json",
+              "ToolTip": "C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\appsettings.json",
+              "RelativeToolTip": "ProyectoADS-dotnet\\Maphreca\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-05-23T20:38:52.435Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "ProyectoADS-dotnet\\Maphreca\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Properties\\launchSettings.json",
-              "RelativeToolTip": "ProyectoADS-dotnet\\Maphreca\\Properties\\launchSettings.json",
-              "ViewState": "AQIAAAsAAADgZGZmZmYkwBwAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-05-13T20:01:24.65Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Program.cs",
+              "RelativeDocumentMoniker": "ProyectoADS-dotnet\\Maphreca\\Program.cs",
+              "ToolTip": "C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Program.cs",
+              "RelativeToolTip": "ProyectoADS-dotnet\\Maphreca\\Program.cs",
+              "ViewState": "AQIAABgAAACAlpmZmRkWwCgAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T20:25:10.21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductosModel.cs",
+              "DocumentMoniker": "C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Components\\Models\\ProductosModel.cs",
+              "RelativeDocumentMoniker": "ProyectoADS-dotnet\\Maphreca\\Components\\Models\\ProductosModel.cs",
+              "ToolTip": "C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Components\\Models\\ProductosModel.cs",
+              "RelativeToolTip": "ProyectoADS-dotnet\\Maphreca\\Components\\Models\\ProductosModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-23T20:27:46.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "ProyectoADS-dotnet\\Maphreca\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\jponce\\source\\repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "ProyectoADS-dotnet\\Maphreca\\Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-14T02:20:42.355Z",
               "EditorCaption": ""
             }
           ]

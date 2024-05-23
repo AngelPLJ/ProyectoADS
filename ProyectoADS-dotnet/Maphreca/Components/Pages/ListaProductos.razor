@@ -1,0 +1,41 @@
+﻿@page "/productos"
+@using Maphreca.Components.Data
+@using Maphreca.Components.Models
+@using Microsoft.EntityFrameworkCore
+@inject ProductosContext Db
+
+<h3>Lista de productos</h3>
+
+<ul>
+    @if (productos != null && productos.Any())
+    {
+        @foreach (var item in productos)
+        {
+            <li>@item.Nombre</li>
+            <li>@item.Cantidad</li>
+            <li>@item.Codigo</li>
+            <li>@item.Descripcion</li>
+        }
+    }
+    else
+    {
+        <li>No hay productos disponibles.</li>
+    }
+</ul>
+
+@code {
+    private List<ProductosModel> productos = new List<ProductosModel>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            productos = await Db.Productos.ToListAsync();
+        }
+        catch (Exception ex)
+        {
+            // Handle exceptions (e.g., logging)
+            Console.WriteLine($"Error fetching products: {ex.Message}");
+        }
+    }
+}
