@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qho5wQDrv5S39uRFwJ+K8RRQ30O6MCDLD+pDfKcKJrnMymWzjGjpZrIUX94nfqQ8BK46u4yYOp502wwoSEEeEQ==",
+  "dgSpecHash": "h3gmDcP3kQ0wMGJu1WMX35UsMEeKs0pU2pRj0MQfCYx/f+MZ8E1gcbyeRsp4uAVVu27vS0sSG8wke3kAxoHAQw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jponce\\Source\\Repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Maphreca.csproj",
+  "projectFilePath": "C:\\Users\\jponce\\Documents\\Personal\\ADOO\\ProyectoADS\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Maphreca.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jponce\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\jponce\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",

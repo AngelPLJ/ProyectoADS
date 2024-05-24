@@ -2539,11 +2539,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jponce\\Source\\Repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Maphreca.csproj",
+      "projectUniqueName": "C:\\Users\\jponce\\Documents\\Personal\\ADOO\\ProyectoADS\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Maphreca.csproj",
       "projectName": "Maphreca",
-      "projectPath": "C:\\Users\\jponce\\Source\\Repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Maphreca.csproj",
+      "projectPath": "C:\\Users\\jponce\\Documents\\Personal\\ADOO\\ProyectoADS\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\Maphreca.csproj",
       "packagesPath": "C:\\Users\\jponce\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jponce\\Source\\Repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\obj\\",
+      "outputPath": "C:\\Users\\jponce\\Documents\\Personal\\ADOO\\ProyectoADS\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jponce\\AppData\\Roaming\\NuGet\\NuGet.Config",
