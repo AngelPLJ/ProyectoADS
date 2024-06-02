@@ -10,6 +10,6 @@ namespace Maphreca.Components.Data
         {
         }
 
-        public DbSet<ProductosModel>? Productos { get; set; }
+        public DbSet<ProductosModel> Productos { get; set; }
     }
 }

@@ -1,4 +1,5 @@
 @page "/nuevo-producto"
+@rendermode InteractiveServer
 @using Maphreca.Components.Data
 @using Maphreca.Components.Models
 @using Microsoft.EntityFrameworkCore
@@ -18,12 +19,12 @@
 </div>
 
 <div class="form-group">
-    <label for="codigo">Código:</label>
+    <label for="codigo">CÃ³digo:</label>
     <input type="text" class="form-control" id="codigo" @bind="@NuevoProducto.Codigo" />
 </div>
 
 <div class="form-group">
-    <label for="descripcion">Descripción:</label>
+    <label for="descripcion">DescripciÃ³n:</label>
     <textarea class="form-control" id="descripcion" rows="3" @bind="@NuevoProducto.Descripcion"></textarea>
 </div>
 

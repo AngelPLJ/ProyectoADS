@@ -35,9 +35,4 @@ using (var scope = app.Services.CreateScope())
     db.Database.EnsureCreated();
 }
 
-using (var scope = app.Services.CreateScope())
-{
-    var db = scope.ServiceProvider.GetRequiredService<ProductosContext>();
-    db.Database.
-}
 app.Run();

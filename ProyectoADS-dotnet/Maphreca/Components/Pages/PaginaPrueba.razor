@@ -1,0 +1,18 @@
+﻿@page "/pagina-prueba"
+@rendermode InteractiveServer
+<PageTitle>Página de prueba</PageTitle>
+
+<h1>Página de prueba</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+    }
+}

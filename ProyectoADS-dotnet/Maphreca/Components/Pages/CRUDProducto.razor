@@ -1,4 +1,5 @@
 @page "/crudproductos"
+@rendermode InteractiveServer
 @using Maphreca.Components.Data
 @using Maphreca.Components.Models
 @using Microsoft.EntityFrameworkCore
@@ -6,42 +7,43 @@
 @inject ProductosContext Db
 
 <h3>Lista de productos</h3>
-
-@if (productos != null && productos.Any())
-{
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Nombre</th>
-                <th>Cantidad</th>
-                <th>Código</th>
-                <th>Descripción</th>
-                <th>Acciones</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in productos)
-            {
+<div>
+    @if (productos != null && productos.Any())
+    {
+        <table class="table">
+            <thead>
                 <tr>
-                    <td>@item.Nombre</td>
-                    <td>@item.Cantidad</td>
-                    <td>@item.Codigo</td>
-                    <td>@item.Descripcion</td>
-                    <td>
-                        <button class="btn btn-primary" @onclick="() => EditarProducto(item)">Editar</button>
-                        <button class="btn btn-danger" @onclick="() => EliminarProducto(item)">Eliminar</button>
-                    </td>
+                    <th>Nombre</th>
+                    <th>Cantidad</th>
+                    <th>CÃ³digo</th>
+                    <th>DescripciÃ³n</th>
+                    <th>Acciones</th>
                 </tr>
-            }
-        </tbody>
-    </table>
-}
-else
-{
-    <p>No hay productos disponibles.</p>
-}
+            </thead>
+            <tbody>
+                @foreach (var item in productos)
+                {
+                    <tr>
+                        <td>@item.Nombre</td>
+                        <td>@item.Cantidad</td>
+                        <td>@item.Codigo</td>
+                        <td>@item.Descripcion</td>
+                        <td>
+                            <button class="btn btn-primary" @onclick="() => EditarProducto(item)">Editar</button>
+                            <button class="btn btn-danger" @onclick="() => EliminarProducto(item)">Eliminar</button>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>No hay productos disponibles.</p>
+    }
+</div>
 
-<button class="btn btn-success" @onclick="NuevoProducto">Agregar Producto</button>
+<button class="btn btn-success" @onclick="() => NuevoProducto()">Agregar Producto</button>
 
 @code {
     private List<ProductosModel> productos = new List<ProductosModel>();
@@ -56,6 +58,7 @@ else
         try
         {
             productos = await Db.Productos.ToListAsync();
+            Console.WriteLine("Jalo");
         }
         catch (Exception ex)
         {
@@ -66,7 +69,8 @@ else
     private void NuevoProducto()
     {
         // Navigate to the page for creating a new product
-        NavigationManager.NavigateTo("/");
+        Console.WriteLine("Nuevo producto");
+        NavigationManager.NavigateTo("nuevo-producto");
     }
 
     private void EditarProducto(ProductosModel producto)

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "m9pn82wSsb5UVAtowz0kJVujkwewipKyETnbUR2zny0=",
+  "Hash": "mQk9VgoklhyriRFbK/5s5E4aNteZ6WpDuvNQklKhZoU=",
   "Source": "Maphreca",
   "BasePath": "_content/Maphreca",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Maphreca\\wwwroot",
       "Source": "Maphreca",
-      "ContentRoot": "C:\\Users\\jponce\\Source\\Repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jponce\\Documents\\Personal\\ADOO\\ProyectoADS\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\",
       "BasePath": "_content/Maphreca",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\jponce\\Source\\Repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Maphreca.styles.css",
+      "Identity": "C:\\Users\\jponce\\Documents\\Personal\\ADOO\\ProyectoADS\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Maphreca.styles.css",
       "SourceId": "Maphreca",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\jponce\\Source\\Repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\jponce\\Documents\\Personal\\ADOO\\ProyectoADS\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Maphreca",
       "RelativePath": "Maphreca.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\jponce\\Source\\Repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Maphreca.styles.css"
+      "OriginalItemSpec": "C:\\Users\\jponce\\Documents\\Personal\\ADOO\\ProyectoADS\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\obj\\Debug\\net8.0\\scopedcss\\bundle\\Maphreca.styles.css"
     },
     {
-      "Identity": "C:\\Users\\jponce\\Source\\Repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Maphreca.bundle.scp.css",
+      "Identity": "C:\\Users\\jponce\\Documents\\Personal\\ADOO\\ProyectoADS\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Maphreca.bundle.scp.css",
       "SourceId": "Maphreca",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\jponce\\Source\\Repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\jponce\\Documents\\Personal\\ADOO\\ProyectoADS\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Maphreca",
       "RelativePath": "Maphreca.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\jponce\\Source\\Repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Maphreca.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\jponce\\Documents\\Personal\\ADOO\\ProyectoADS\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Maphreca.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\jponce\\Source\\Repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\app.css",
+      "Identity": "C:\\Users\\jponce\\Documents\\Personal\\ADOO\\ProyectoADS\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\app.css",
       "SourceId": "Maphreca",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jponce\\Source\\Repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jponce\\Documents\\Personal\\ADOO\\ProyectoADS\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\",
       "BasePath": "_content/Maphreca",
       "RelativePath": "app.css",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\app.css"
     },
     {
-      "Identity": "C:\\Users\\jponce\\Source\\Repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\jponce\\Documents\\Personal\\ADOO\\ProyectoADS\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\bootstrap\\bootstrap.min.css",
       "SourceId": "Maphreca",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jponce\\Source\\Repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jponce\\Documents\\Personal\\ADOO\\ProyectoADS\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\",
       "BasePath": "_content/Maphreca",
       "RelativePath": "bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\jponce\\Source\\Repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\jponce\\Documents\\Personal\\ADOO\\ProyectoADS\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "Maphreca",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jponce\\Source\\Repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jponce\\Documents\\Personal\\ADOO\\ProyectoADS\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\",
       "BasePath": "_content/Maphreca",
       "RelativePath": "bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\jponce\\Source\\Repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\jponce\\Documents\\Personal\\ADOO\\ProyectoADS\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\favicon.png",
       "SourceId": "Maphreca",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\jponce\\Source\\Repos\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\jponce\\Documents\\Personal\\ADOO\\ProyectoADS\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\",
       "BasePath": "_content/Maphreca",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
