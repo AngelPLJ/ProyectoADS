@@ -1,0 +1,98 @@
+@page "/punto-de-venta"
+@rendermode InteractiveServer
+<PageTitle>Maphreca</PageTitle>
+
+<div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4 py-3 px-3 my-3">
+    <h3>Punto de venta - Maphreca</h3>
+    <div class="my-1">
+        <label>Codigo: </label>
+        <input @bind="newItemName" />
+    </div>
+    <div class="my-1">
+        <label>Cantidad: </label>
+        <input type="number" @bind="newItemQuantity" />
+    </div>
+    <div class="my-1">
+        <label>Precio: </label>
+        <input type="number" @bind="newItemPrice" />
+    </div>
+    <button class="btn btn-primary my-2" @onclick="AddItem">Añadir item</button>
+</div>
+<div class="overflow-auto p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4 py-3 px-3 my-5">
+    <h4>Carrito</h4>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Cantidad</th>
+                <th>Precio</th>
+                <th>Total</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in cart)
+            {
+                <tr>
+                    <td>@item.Name</td>
+                    <td>@item.Quantity</td>
+                    <td>@item.Price</td>
+                    <td>@(item.Quantity * item.Price)</td>
+                    <td><button @onclick="() => RemoveItem(item)">Remove</button></td>
+                </tr>
+            }
+        </tbody>
+    </table>
+    <h4>Total: @totalCost</h4>
+    <button class="btn btn-secondary my-2" @onclick="ClearCart">Borrar carrito</button>
+    <button class="btn btn-primary my-2" @onclick="ProcessTransaction">Procesar transacción</button>
+</div>
+
+@code {
+    private string newItemName;
+    private int newItemQuantity;
+    private decimal newItemPrice;
+    private List<CartItem> cart = new();
+    private decimal totalCost;
+
+    private void AddItem()
+    {
+        var item = new CartItem
+        {
+            Name = newItemName,
+            Quantity = newItemQuantity,
+            Price = newItemPrice
+        };
+        cart.Add(item);
+        CalculateTotalCost();
+    }
+
+    private void RemoveItem(CartItem item)
+    {
+        cart.Remove(item);
+        CalculateTotalCost();
+    }
+
+    private void ClearCart()
+    {
+        cart.Clear();
+        CalculateTotalCost();
+    }
+
+    private void ProcessTransaction()
+    {
+        // Process the transaction (e.g., print receipt)
+    }
+
+    private void CalculateTotalCost()
+    {
+        totalCost = cart.Sum(item => item.Quantity * item.Price);
+    }
+
+    private class CartItem
+    {
+        public string Name { get; set; }
+        public int Quantity { get; set; }
+        public decimal Price { get; set; }
+    }
+}

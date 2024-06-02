@@ -1,16 +1,17 @@
-@page "/crudproductos"
+@page "/productos"
 @rendermode InteractiveServer
 @using Maphreca.Components.Data
 @using Maphreca.Components.Models
 @using Microsoft.EntityFrameworkCore
 @inject NavigationManager NavigationManager
 @inject ProductosContext Db
+<PageTitle>Maphreca</PageTitle>
 
 <h3>Lista de productos</h3>
-<div>
+<div class="overflow-auto">
     @if (productos != null && productos.Any())
     {
-        <table class="table">
+        <table class="table ">
             <thead>
                 <tr>
                     <th>Nombre</th>
@@ -29,8 +30,8 @@
                         <td>@item.Codigo</td>
                         <td>@item.Descripcion</td>
                         <td>
-                            <button class="btn btn-primary" @onclick="() => EditarProducto(item)">Editar</button>
-                            <button class="btn btn-danger" @onclick="() => EliminarProducto(item)">Eliminar</button>
+                            <button class="btn btn-primary my-1" @onclick="() => EditarProducto(item)">Editar</button>
+                            <button class="btn btn-danger my-1" @onclick="() => EliminarProducto(item)">Eliminar</button>
                         </td>
                     </tr>
                 }
@@ -43,7 +44,7 @@
     }
 </div>
 
-<button class="btn btn-success" @onclick="() => NuevoProducto()">Agregar Producto</button>
+<button class="btn btn-success my-2" @onclick="() => NuevoProducto()">Agregar Producto</button>
 
 @code {
     private List<ProductosModel> productos = new List<ProductosModel>();
@@ -58,7 +59,6 @@
         try
         {
             productos = await Db.Productos.ToListAsync();
-            Console.WriteLine("Jalo");
         }
         catch (Exception ex)
         {
@@ -69,7 +69,6 @@
     private void NuevoProducto()
     {
         // Navigate to the page for creating a new product
-        Console.WriteLine("Nuevo producto");
         NavigationManager.NavigateTo("nuevo-producto");
     }
 
