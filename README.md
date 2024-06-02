@@ -13,10 +13,12 @@ A brief description of what this project does and who it's for.
 
 ## Installacion
 
-1. Clone the repository
+1. Instalar .NET 8.0
+    https://dotnet.microsoft.com/es-es/download
+    
+2. Clonar el repositorio
    ```sh
-   git clone https://github.com/yourusername/your-repo.git
-
+   git clone https://github.com/AngelPLJ/ProyectoADS
 Identificador del
 requerimiento
 Descripción del requerimiento.
