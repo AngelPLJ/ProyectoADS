@@ -17,8 +17,16 @@
       "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Id": "C:\\Users\\jponce\\Documents\\Personal\\ADOO\\ProyectoADS\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\css\\output.css",
+      "PackagePath": "staticwebassets\\css\\output.css"
+    },
+    {
       "Id": "C:\\Users\\jponce\\Documents\\Personal\\ADOO\\ProyectoADS\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\jponce\\Documents\\Personal\\ADOO\\ProyectoADS\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Maphreca.Microsoft.AspNetCore.StaticWebAssets.props",

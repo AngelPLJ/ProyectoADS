@@ -1,27 +1,31 @@
 ﻿@page "/lista-productos"
+@rendermode InteractiveServer
 @using Maphreca.Components.Data
 @using Maphreca.Components.Models
 @using Microsoft.EntityFrameworkCore
+@inject NavigationManager NavigationManager
 @inject ProductosContext Db
+@using System.Globalization
 
-<h3>Lista de productos</h3>
+<h3 class="justify-center">Lista de productos</h3>
 
-<ul>
+<div class="flex flex-wrap">
     @if (productos != null && productos.Any())
     {
         @foreach (var item in productos)
         {
-            <li>@item.Nombre</li>
-            <li>@item.Cantidad</li>
-            <li>@item.Codigo</li>
-            <li>@item.Descripcion</li>
+            <div class="p-4 bg-gradient-to-t from-indigo-700 to-blue-900 hover:opacity-90 rounded-xl shadow-lg flex flex-col items-start m-1 w-48" @onclick="() => EditarProducto(item)">
+                <p class="m-0 text-white font-bold">@item.Nombre</p>
+                <p class="m-0 text-green-300">@item.Precio.ToString("C", CultureInfo.GetCultureInfo("es-MX"))</p>
+                <p class="m-0 text-white">@item.Descripcion</p>
+            </div>
         }
     }
     else
     {
-        <li>No hay productos disponibles.</li>
+        <p>No hay productos disponibles.</p>
     }
-</ul>
+</div>
 
 @code {
     private List<ProductosModel> productos = new List<ProductosModel>();
@@ -37,5 +41,11 @@
             // Handle exceptions (e.g., logging)
             Console.WriteLine($"Error fetching products: {ex.Message}");
         }
+    }
+
+    private void EditarProducto(ProductosModel producto)
+    {
+        // Navigate to the page for editing the selected product
+        NavigationManager.NavigateTo($"/editar-producto/{producto.Id}");
     }
 }

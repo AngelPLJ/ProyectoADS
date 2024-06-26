@@ -252,3 +252,5 @@ C:\Users\jponce\Documents\Personal\ADOO\ProyectoADS\ProyectoADS\ProyectoADS-dotn
 C:\Users\jponce\Documents\Personal\ADOO\ProyectoADS\ProyectoADS\ProyectoADS-dotnet\Maphreca\obj\Debug\net8.0\Maphreca.pdb
 C:\Users\jponce\Documents\Personal\ADOO\ProyectoADS\ProyectoADS\ProyectoADS-dotnet\Maphreca\obj\Debug\net8.0\Maphreca.genruntimeconfig.cache
 C:\Users\jponce\Documents\Personal\ADOO\ProyectoADS\ProyectoADS\ProyectoADS-dotnet\Maphreca\obj\Debug\net8.0\ref\Maphreca.dll
+C:\Users\jponce\Documents\Personal\ADOO\ProyectoADS\ProyectoADS\ProyectoADS-dotnet\Maphreca\bin\Debug\net8.0\package-lock.json
+C:\Users\jponce\Documents\Personal\ADOO\ProyectoADS\ProyectoADS\ProyectoADS-dotnet\Maphreca\bin\Debug\net8.0\package.json

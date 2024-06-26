@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mQk9VgoklhyriRFbK/5s5E4aNteZ6WpDuvNQklKhZoU=",
+  "Hash": "7h8cdMq+uUySFGXQFX+P/gxikEzV0TDh6i2DW95ip48=",
   "Source": "Maphreca",
   "BasePath": "_content/Maphreca",
   "Mode": "Default",
@@ -112,6 +112,25 @@
       "OriginalItemSpec": "wwwroot\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Identity": "C:\\Users\\jponce\\Documents\\Personal\\ADOO\\ProyectoADS\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\css\\output.css",
+      "SourceId": "Maphreca",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jponce\\Documents\\Personal\\ADOO\\ProyectoADS\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\",
+      "BasePath": "_content/Maphreca",
+      "RelativePath": "css/output.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\output.css"
+    },
+    {
       "Identity": "C:\\Users\\jponce\\Documents\\Personal\\ADOO\\ProyectoADS\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\favicon.png",
       "SourceId": "Maphreca",
       "SourceType": "Discovered",
@@ -129,6 +148,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\jponce\\Documents\\Personal\\ADOO\\ProyectoADS\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\js\\site.js",
+      "SourceId": "Maphreca",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\jponce\\Documents\\Personal\\ADOO\\ProyectoADS\\ProyectoADS\\ProyectoADS-dotnet\\Maphreca\\wwwroot\\",
+      "BasePath": "_content/Maphreca",
+      "RelativePath": "js/site.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\site.js"
     }
   ]
 }

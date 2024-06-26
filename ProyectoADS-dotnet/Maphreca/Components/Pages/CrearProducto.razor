@@ -24,8 +24,23 @@
 </div>
 
 <div class="form-group">
+    <label for="codigoLote">Código del Lote:</label>
+    <input type="text" class="form-control" id="codigoLote" @bind="@NuevoProducto.CodigoLote" />
+</div>
+
+<div class="form-group">
+    <label for="Precio">Precio:</label>
+    <input type="number" class="form-control" id="Precio" @bind="@NuevoProducto.Precio" step="0.01" />
+</div>
+
+<div class="form-group">
     <label for="descripcion">Descripción:</label>
     <textarea class="form-control" id="descripcion" rows="3" @bind="@NuevoProducto.Descripcion"></textarea>
+</div>
+
+<div class="form-group">
+    <label for="fecha">Fecha de caducidad: </label>
+    <InputDate CssClass="form-control" id="fecha" @bind-Value="@NuevoProducto.Fecha" />
 </div>
 
 <button class="btn btn-primary my-2" @onclick="GuardarProducto">Guardar</button>

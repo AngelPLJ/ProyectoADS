@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Maphreca")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e718be91f091a44a6124d82f346cb8fb047d374c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3509af330ea017cf48333a1291df6165e9bf7b91")]
 [assembly: System.Reflection.AssemblyProductAttribute("Maphreca")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Maphreca")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -5,19 +5,24 @@
 @using Microsoft.EntityFrameworkCore
 @inject NavigationManager NavigationManager
 @inject ProductosContext Db
+@using System.Globalization
+
 <PageTitle>Maphreca</PageTitle>
 
 <h3>Lista de productos</h3>
 <div class="overflow-auto">
     @if (productos != null && productos.Any())
     {
-        <table class="table ">
+        <table class="table">
             <thead>
                 <tr>
-                    <th>Nombre</th>
-                    <th>Cantidad</th>
-                    <th>Código</th>
-                    <th>Descripción</th>
+                    <th class="hover:bg-green-100" @onclick="() => SortByColumn(nameof(ProductosModel.Codigo))">Código</th>
+                    <th class="hover:bg-green-100" @onclick="() => SortByColumn(nameof(ProductosModel.CodigoLote))">Código de Lote</th>
+                    <th class="hover:bg-green-100" @onclick="() => SortByColumn(nameof(ProductosModel.Nombre))">Nombre</th>
+                    <th class="hover:bg-green-100" @onclick="() => SortByColumn(nameof(ProductosModel.Precio))">Precio</th>
+                    <th class="hover:bg-green-100" @onclick="() => SortByColumn(nameof(ProductosModel.Cantidad))">Cantidad</th>
+                    <th class="hover:bg-green-100" @onclick="() => SortByColumn(nameof(ProductosModel.Fecha))">Fecha de caducidad</th>
+                    <th class="hover:bg-green-100" @onclick="() => SortByColumn(nameof(ProductosModel.Descripcion))">Descripción</th>
                     <th>Acciones</th>
                 </tr>
             </thead>
@@ -25,9 +30,12 @@
                 @foreach (var item in productos)
                 {
                     <tr>
-                        <td>@item.Nombre</td>
-                        <td>@item.Cantidad</td>
                         <td>@item.Codigo</td>
+                        <td>@item.CodigoLote</td>
+                        <td>@item.Nombre</td>
+                        <td>@item.Precio.ToString("C", CultureInfo.GetCultureInfo("es-MX"))</td>
+                        <td>@item.Cantidad</td>
+                        <td>@item.Fecha.ToString("dd-MM-yyyy")</td>
                         <td>@item.Descripcion</td>
                         <td>
                             <button class="btn btn-primary my-1" @onclick="() => EditarProducto(item)">Editar</button>
@@ -48,6 +56,8 @@
 
 @code {
     private List<ProductosModel> productos = new List<ProductosModel>();
+    private string currentSortColumn;
+    private bool sortAscending = true;
 
     protected override async Task OnInitializedAsync()
     {
@@ -58,7 +68,16 @@
     {
         try
         {
-            productos = await Db.Productos.ToListAsync();
+            var query = Db.Productos.AsQueryable();
+
+            if (!string.IsNullOrEmpty(currentSortColumn))
+            {
+                query = sortAscending
+                    ? query.OrderBy(e => EF.Property<object>(e, currentSortColumn))
+                    : query.OrderByDescending(e => EF.Property<object>(e, currentSortColumn));
+            }
+
+            productos = await query.ToListAsync();
         }
         catch (Exception ex)
         {
@@ -68,13 +87,11 @@
 
     private void NuevoProducto()
     {
-        // Navigate to the page for creating a new product
         NavigationManager.NavigateTo("nuevo-producto");
     }
 
     private void EditarProducto(ProductosModel producto)
     {
-        // Navigate to the page for editing the selected product
         NavigationManager.NavigateTo($"/editar-producto/{producto.Id}");
     }
 
@@ -90,5 +107,20 @@
         {
             Console.WriteLine($"Error al eliminar el producto: {ex.Message}");
         }
+    }
+
+    private async void SortByColumn(string columnName)
+    {
+        if (currentSortColumn == columnName)
+        {
+            sortAscending = !sortAscending;
+        }
+        else
+        {
+            currentSortColumn = columnName;
+            sortAscending = true;
+        }
+
+        await ActualizarListaProductos();
     }
 }
